@@ -32,7 +32,7 @@ class AstronomyUITests: XCTestCase {
     func testMoveToNextSol() {
         let app = XCUIApplication()
         app.navigationBars["Sol 15"].buttons[SolButtons.next.rawValue].tap()
-        XCTAssertEqual(app.navigationBars["Sol 14"].exists, true)
+        XCTAssertEqual(app.navigationBars["Sol 16"].exists, true)
         
     }
     
